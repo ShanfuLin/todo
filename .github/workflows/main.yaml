@@ -4,7 +4,7 @@ name: My Second Workflow
 on: 
   push
     branches:    
-      - 'release/*'
+    - 'release/*'
 # Jobs in the workflow
 jobs:
   # job name
