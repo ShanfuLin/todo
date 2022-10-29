@@ -2,7 +2,7 @@ name: My Second Workflow
 
 #trigger 
 on: 
-  push
+  push:
     branches:    
     - release/[A-Za-z0-9.]+
 # Jobs in the workflow
